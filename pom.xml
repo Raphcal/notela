@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <name>Notela</name>
+
+    <groupId>com.github.raphcal</groupId>
+    <artifactId>notela</artifactId>
+    <version>1.0.0</version>
+
+    <packaging>jar</packaging>
+
+    <description>Notela is Not Elasticsearch but it is trying very hard to look like it.</description>
+    <url>https://github.com/raphcal/notela</url>
+    <licenses>
+        <license>
+            <name>Lesser GPL 2.1</name>
+            <distribution>manual</distribution>
+            <url>https://www.gnu.org/licenses/old-licenses/lgpl-2.1.en.html</url>
+        </license>
+    </licenses>
+
+    <scm>
+        <url>https://github.com/raphcal/notela.git</url>
+    </scm>
+
+    <developers>
+        <developer>
+            <name>Raphaël Calabro</name>
+            <email>ddaeke-github@yahoo.fr</email>
+        </developer>
+    </developers>
+
+    <distributionManagement>
+        <snapshotRepository>
+            <id>ossrh</id>
+            <url>https://oss.sonatype.org/content/repositories/snapshots</url>
+        </snapshotRepository>
+    </distributionManagement>
+
+    <properties>
+        <maven.compiler.target>11</maven.compiler.target>
+        <maven.compiler.source>11</maven.compiler.source>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.github.raphcal</groupId>
+            <artifactId>localserver</artifactId>
+            <version>2.3.0</version>
+        </dependency>
+    </dependencies>
+</project>
